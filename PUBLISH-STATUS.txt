@@ -1,0 +1,4 @@
+Site HTML ready (Spanish, offline/no-Firebase/no-collection facts).
+Blocked on GitHub repo creation:
+1) user-GitHub-xai create_repository -> 403 Resource not accessible by integration (twice)
+2) gh CLI was not logged in; device auth started for user approval
