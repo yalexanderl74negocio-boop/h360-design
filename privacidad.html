@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Política de privacidad de H360 Design. App offline sin recolección de datos.">
+  <meta name="description" content="Política de privacidad de H360 Design: datos locales, anuncios AdMob y servicios en línea opcionales.">
   <title>Política de privacidad — H360 Design</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -22,10 +22,12 @@
   <main>
     <h1>Política de privacidad</h1>
     <p class="meta">
-      Aplicación: <strong>H360 Design</strong> (Android)<br>
-      Desarrollador / responsable: <strong>Jommy Alexander López Campos</strong>, León, Nicaragua<br>
+      Aplicación: <strong>H360 Design</strong> (Android). Gratuita, financiada con anuncios.<br>
+      Responsable del tratamiento: <strong>Jommy Alexander López Campos</strong> (persona natural), Constructora Home 360, Nicaragua<br>
+      RUC / registro: si aplica<br>
+      Domicilio: Complejo Habitacional Modesto Espinal, placa 8C, N. 75 vrs. E., León, León, Nicaragua<br>
       Correo de contacto: <a href="mailto:yalexanderl74negocio@gmail.com">yalexanderl74negocio@gmail.com</a><br>
-      Última actualización: <strong>3 de noviembre de 2026</strong> (America/Managua)
+      Fecha de vigencia: <strong>4 de noviembre de 2026 (provisional)</strong> (America/Managua)
     </p>
 
     <h2>1. Qué hace esta aplicación</h2>
@@ -33,13 +35,11 @@
 
     <h2>2. Resumen</h2>
     <ul>
-      <li>La aplicación funciona <strong>completamente sin internet</strong>.</li>
-      <li><strong>No</strong> solicita el permiso <code>INTERNET</code> de Android.</li>
-      <li><strong>No</strong> utiliza Firebase ni ningún servicio en la nube del desarrollador.</li>
-      <li><strong>No</strong> hay anuncios, analítica ni rastreo de terceros.</li>
+      <li>Las herramientas funcionan <strong>sin internet</strong>.</li>
       <li>Obras, planos, listas, ajustes, favoritos y recientes se guardan <strong>solo en este teléfono</strong>.</li>
-      <li><strong>No se recopilan ni transmiten</strong> datos personales fuera del dispositivo.</li>
-      <li>No se piden permisos de ubicación, contactos, cámara, micrófono ni almacenamiento amplio.</li>
+      <li>La app <strong>muestra anuncios de Google AdMob</strong>: un anuncio intersticial antes del timelapse y un anuncio con recompensa <strong>voluntario</strong> en Ajustes → Acerca de → Apoyar H360. Sin analítica propia.</li>
+      <li><strong>No</strong> se piden permisos de ubicación, contactos, cámara, micrófono ni almacenamiento amplio.</li>
+      <li>Se usa internet de forma <strong>opcional</strong> para: anuncios AdMob (§6), cuenta con Firebase Authentication (§7), ayuda con internet de xAI (§8) y conexión entre dispositivos con STUN (§9). Ninguno bloquea el uso de planos sin conexión.</li>
     </ul>
 
     <h2>3. Datos que se quedan en el teléfono</h2>
@@ -51,39 +51,69 @@
       <li>favoritos y herramientas recientes;</li>
       <li>archivos temporales de «compartir/exportar» en la caché de la app (se limpian con el tiempo).</li>
     </ul>
-    <p>La copia de seguridad automática de Android para esta app está desactivada (<code>allowBackup="false"</code>). Si desinstalas o borras los datos de la app, <strong>se pierden</strong> y no podemos recuperarlos: no existe nube de H360 Design para esas obras.</p>
-    <p>Los números que introduces en calculadoras <strong>no se envían</strong> a ningún servidor.</p>
+    <p>La copia de seguridad automática de Android para esta app está desactivada (<code>allowBackup="false"</code>). Si desinstalas o borras los datos de la app, <strong>se pierden</strong> y no podemos recuperarlos (no hay nube de H360 Design para esas obras).</p>
+    <p>Los números que introduces en calculadoras <strong>no se envían</strong> a un servidor.</p>
     <p>Si escribes nombres o datos de clientes/proveedores en tus obras, esos datos los controlas tú en tu dispositivo; H360 Design no los transmite. Eres responsable de cómo los usas.</p>
 
-    <h2>4. Sin recolección ni transmisión</h2>
-    <p>H360 Design <strong>no recoge</strong> ni comparte con el desarrollador ni con terceros tipos de datos de usuario fuera del dispositivo. No hay cuentas, inicio de sesión, Firebase Authentication, analítica, publicidad ni telemetría.</p>
-    <p>Cualquier función que en versiones anteriores hubiera contemplado cuenta opcional o servicios en línea <strong>está eliminada o no forma parte</strong> de la versión de tienda descrita en esta política.</p>
-
-    <h2>5. Clima / sol para la planta solar</h2>
+    <h2>4. Clima / sol para la planta solar</h2>
     <p>Los datos de irradianción por zona salen de una <strong>tabla NASA POWER embebida</strong> en la app (NASA Langley Research Center POWER Project, licencia <strong>CC BY 4.0</strong>). Buscar una zona o elegir la más cercana <strong>no envía</strong> datos a internet. Solo se guarda en el teléfono la zona elegida.</p>
 
-    <h2>6. Compartir y archivos</h2>
+    <h2>5. Compartir y archivos</h2>
     <p>Si pulsas Compartir o Guardar, el contenido se entrega a la aplicación que <strong>tú</strong> elijas (mensajería, archivos, etc.) mediante el sistema Android. Nosotros no enviamos ese archivo a nuestros servidores.</p>
     <p>La importación de respaldos JSON usa el selector de documentos del sistema; el contenido se valida en la app.</p>
 
-    <h2>7. Cookies</h2>
-    <p>En la aplicación Android offline <strong>no</strong> usamos cookies de publicidad ni de analítica. El almacenamiento local (localStorage del WebView) sirve para guardar tus obras y ajustes, no para rastrearte entre sitios.</p>
-    <p>Este sitio web estático solo publica documentos legales; no usa cookies de seguimiento.</p>
+    <h2>6. Publicidad (Google AdMob) y consentimiento (UMP)</h2>
+    <ul>
+      <li><strong>Proveedor:</strong> Google LLC (AdMob). Google actúa según sus propias políticas: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener noreferrer" target="_blank">policies.google.com/technologies/partner-sites</a>.</li>
+      <li><strong>Datos que puede recoger el SDK de Google:</strong> identificador de publicidad de Android, dirección IP, datos del dispositivo (modelo, sistema, idioma), interacciones con el anuncio y diagnóstico/fallos del SDK. H360 Design <strong>no</strong> envía tus obras, planos ni cálculos a AdMob.</li>
+      <li><strong>Formatos:</strong> intersticial (antes del timelapse, no durante) y con recompensa opcional (60 min de uso sin intersticial). Ver anuncios nunca es obligatorio para usar funciones.</li>
+      <li><strong>Consentimiento:</strong> se usa el <strong>User Messaging Platform (UMP)</strong> de Google para pedir y guardar el consentimiento cuando la ley lo exija (p. ej. EEE/Reino Unido) y para permitir cambiarlo después desde Ajustes. <strong>Sin consentimiento no se cargan anuncios personalizados</strong>; solo, cuando proceda, anuncios no personalizados/limitados.</li>
+      <li>Puedes restablecer o desactivar el ID de publicidad en Ajustes de Android.</li>
+    </ul>
 
-    <h2>8. Niños</h2>
+    <h2>7. Cuenta opcional (Firebase Authentication)</h2>
+    <p>La app puede ofrecer una cuenta opcional. Si la función de cuenta está disponible y el usuario decide crear una cuenta o entrar:</p>
+    <ul>
+      <li>Correo y contraseña se envían por HTTPS a <strong>Firebase Authentication</strong> (Google) para autenticar.</li>
+      <li>La sesión se mantiene en memoria mientras la app está abierta; no se incluyen contraseñas ni tokens en respaldos locales.</li>
+      <li>Iniciar sesión <strong>no</strong> sube obras ni planos a la nube.</li>
+      <li>Sin cuenta o sin red, las obras locales siguen funcionando.</li>
+      <li>Derechos: acceso, rectificación y supresión mediante el correo de contacto.</li>
+    </ul>
+    <p><strong>Transferencia internacional:</strong> el correo y el identificador de cuenta los trata Google fuera de Nicaragua. Si usas la cuenta, prestas consentimiento informado conforme a la Ley N°. 787.</p>
+
+    <h2>8. Ayuda con internet (xAI) — opcional</h2>
+    <ul>
+      <li>Si eliges <strong>preguntar con internet</strong>, el texto que envías se manda por HTTPS a <strong>api.x.ai</strong> (xAI).</li>
+      <li>Sin red o si falla la llamada, se muestra un mensaje de error; la <strong>ayuda local</strong> y el resto de la app siguen funcionando.</li>
+      <li>H360 Design <strong>no</strong> envía obras, planos ni listados a xAI; solo el texto de la consulta que tú decides mandar.</li>
+    </ul>
+
+    <h2>9. Conexión entre dispositivos (STUN) — opcional</h2>
+    <ul>
+      <li>Una función opcional de conexión entre dispositivos (p2p) puede usar servidores <strong>STUN</strong> de Google y Cloudflare para negociar la conexión.</li>
+      <li><strong>No</strong> forma parte del flujo de planos; si no la usas, no hay tráfico STUN.</li>
+      <li>Un servidor STUN puede ver la <strong>IP pública</strong> del dispositivo durante la negociación; no recibe obras ni planos.</li>
+    </ul>
+
+    <h2>10. Cookies</h2>
+    <p>En la aplicación Android <strong>no</strong> usamos cookies de analítica. El SDK de AdMob usa el ID de publicidad y almacenamiento propio de Google (§6). El almacenamiento local (localStorage del WebView) sirve para guardar tus obras y ajustes, no para rastrearte entre sitios.</p>
+    <p>Este sitio web estático solo publica documentos legales; si visitas otro sitio de H360 Design, esa página puede tener su propio aviso.</p>
+
+    <h2>11. Niños</h2>
     <p>La app está pensada para técnicos y público adulto interesado en construcción. No está dirigida a menores de 13 años.</p>
 
-    <h2>9. Cambios</h2>
-    <p>Si cambia el tratamiento de datos, actualizaremos esta página y su fecha. El aviso seguirá disponible en la app (Ajustes / Privacidad) y en esta URL pública para Google Play.</p>
+    <h2>12. Cambios</h2>
+    <p>Si cambia el tratamiento de datos, actualizaremos esta página y su fecha. El aviso seguirá disponible en la app (Ajustes / Privacidad) y en la URL publicada para Google Play.</p>
 
-    <h2>10. Contacto y derechos (Ley 787)</h2>
-    <p>Como la app no transmite datos personales al desarrollador, no hay un fichero remoto que rectificar o cancelar. Los datos que solo existen en tu teléfono se eliminan borrando los datos de la app o desinstalándola.</p>
-    <p>Para consultas sobre esta política o derechos reconocidos por la Ley de Protección de Datos Personales (Ley N°. 787) de Nicaragua:</p>
+    <h2>13. Contacto y derechos (Ley 787)</h2>
+    <p>Puedes ejercer derechos de acceso, rectificación, cancelación u otros reconocidos por la Ley de Protección de Datos Personales (Ley N°. 787) de Nicaragua respecto de los datos que <strong>nosotros</strong> tratemos (p. ej. la cuenta opcional). Para datos de anuncios, Google es responsable de su tratamiento; gestiona tu consentimiento en la app (UMP) o en tu cuenta de Google.</p>
     <ul>
       <li>Correo: <a href="mailto:yalexanderl74negocio@gmail.com">yalexanderl74negocio@gmail.com</a></li>
       <li>Responsable: Jommy Alexander López Campos</li>
-      <li>Domicilio: León, Nicaragua</li>
+      <li>Domicilio: Complejo Habitacional Modesto Espinal, placa 8C, N. 75 vrs. E., León, León, Nicaragua</li>
     </ul>
+    <p>Los datos que solo existen en tu teléfono se eliminan borrando los datos de la app o desinstalándola.</p>
   </main>
   <footer>
     <div class="footer-inner">
