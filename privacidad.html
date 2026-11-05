@@ -39,7 +39,7 @@
       <li>Obras, planos, listas, ajustes, favoritos y recientes se guardan <strong>solo en este teléfono</strong>.</li>
       <li>La app <strong>muestra anuncios de Google AdMob</strong>: un anuncio intersticial antes del timelapse y un anuncio con recompensa <strong>voluntario</strong> en Ajustes → Acerca de → Apoyar H360. Sin analítica propia.</li>
       <li>Permisos de Android: solo <strong>INTERNET</strong> y <strong>estado de red</strong>. <strong>No</strong> se piden ubicación, contactos, cámara, micrófono ni almacenamiento amplio. La opción «foto» guarda una imagen del render 3D; no usa la cámara. Importar respaldos usa el selector de archivos del sistema.</li>
-      <li>Se usa internet de forma <strong>opcional</strong> para: anuncios AdMob (§6), cuenta con Firebase Authentication (§7), ayuda con internet de xAI (§8) y conexión entre dispositivos con STUN (§9). Ninguno bloquea el uso de planos sin conexión.</li>
+      <li>Se usa internet de forma <strong>opcional</strong> para: anuncios AdMob (§6), una posible cuenta futura con Firebase Authentication (§7, hoy inactiva), ayuda con internet de xAI (§8) y conexión entre dispositivos con STUN (§9). Ninguno bloquea el uso de planos sin conexión.</li>
     </ul>
 
     <h2>3. Datos que se quedan en el teléfono</h2>
@@ -71,8 +71,8 @@
       <li>Puedes restablecer o desactivar el ID de publicidad en Ajustes de Android.</li>
     </ul>
 
-    <h2>7. Cuenta opcional (Firebase Authentication)</h2>
-    <p>La app puede ofrecer una cuenta opcional. Si la función de cuenta está disponible y el usuario decide crear una cuenta o entrar:</p>
+    <h2>7. Cuenta opcional futura (Firebase Authentication)</h2>
+    <p>En la versión actual la app <strong>no ofrece cuenta</strong> ni hace llamadas a Firebase. Si en una versión futura se activa una cuenta opcional y el usuario decide crear una cuenta o entrar:</p>
     <ul>
       <li>Correo y contraseña se envían por HTTPS a <strong>Firebase Authentication</strong> (Google) para autenticar.</li>
       <li>La sesión se mantiene en memoria mientras la app está abierta; no se incluyen contraseñas ni tokens en respaldos locales.</li>
